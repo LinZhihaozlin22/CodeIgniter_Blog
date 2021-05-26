@@ -1,0 +1,307 @@
+CRITICAL - 2021-04-25 00:59:54 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/system/CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/system/CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/system/bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/spark(53): require('/Users/linzhiha...')
+#4 {main}
+CRITICAL - 2021-04-25 01:45:41 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/system/CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/system/CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/system/bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/spark(53): require('/Users/linzhiha...')
+#4 {main}
+CRITICAL - 2021-04-25 01:46:47 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/system/CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/system/CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/system/bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/spark(53): require('/Users/linzhiha...')
+#4 {main}
+CRITICAL - 2021-04-25 03:32:56 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/system/CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/system/CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/system/bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/spark(53): require('/Users/linzhiha...')
+#4 {main}
+CRITICAL - 2021-04-25 04:15:35 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/system/CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/system/CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/system/bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/spark(53): require('/Users/linzhiha...')
+#4 {main}
+CRITICAL - 2021-04-25 04:19:41 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/system/CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/system/CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/system/bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/spark(53): require('/Users/linzhiha...')
+#4 {main}
+CRITICAL - 2021-04-25 04:22:42 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/system/CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/system/CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/system/bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/spark(53): require('/Users/linzhiha...')
+#4 {main}
+CRITICAL - 2021-04-25 04:37:00 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/system/CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/system/CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/system/bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 /Users/linzhihao/.bitnami/stackman/machines/xampp/volumes/root/htdocs/codeigniter/spark(53): require('/Users/linzhiha...')
+#4 {main}
+CRITICAL - 2021-04-25 02:23:16 --> syntax error, unexpected '$page' (T_VARIABLE), expecting ')'
+#0 /opt/lampp/htdocs/codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('blog')
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('blog')
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-25 02:23:37 --> syntax error, unexpected '$page' (T_VARIABLE), expecting ')'
+#0 /opt/lampp/htdocs/codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('blog')
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('blog')
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-25 02:23:39 --> syntax error, unexpected '$page' (T_VARIABLE), expecting ')'
+#0 /opt/lampp/htdocs/codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('blog')
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('blog')
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-25 02:26:34 --> syntax error, unexpected ')', expecting ',' or ';'
+#0 /opt/lampp/htdocs/codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('blog/showme/abo...')
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('blog/showme/abo...')
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-25 02:26:36 --> syntax error, unexpected ')', expecting ',' or ';'
+#0 /opt/lampp/htdocs/codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('blog/showme/abo...')
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('blog/showme/abo...')
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-25 02:26:37 --> syntax error, unexpected ')', expecting ',' or ';'
+#0 /opt/lampp/htdocs/codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('blog/showme')
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('blog/showme')
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-25 02:26:39 --> syntax error, unexpected ')', expecting ',' or ';'
+#0 /opt/lampp/htdocs/codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('blog/showme')
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('blog/showme')
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-25 02:26:40 --> syntax error, unexpected ')', expecting ',' or ';'
+#0 /opt/lampp/htdocs/codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('blog')
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('blog')
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-25 02:27:05 --> syntax error, unexpected ')', expecting ',' or ';'
+#0 /opt/lampp/htdocs/codeigniter/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('blog')
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('blog')
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-25 02:31:25 --> Invalid file: blog/about.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/about.php')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('blog/about', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(17): view('blog/about')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->showme('about')
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-25 02:31:47 --> Invalid file: blog/about.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/about.php')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('blog/about', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(17): view('blog/about')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->showme('about')
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-25 02:31:48 --> Invalid file: blog/home.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/home.php')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('blog/home', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(17): view('blog/home')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->showme()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-25 02:31:48 --> Invalid file: blog/home.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/home.php')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('blog/home', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(17): view('blog/home')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->showme()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-25 02:31:48 --> Invalid file: blog/about.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/about.php')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('blog/about', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(17): view('blog/about')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->showme('about')
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-25 02:31:56 --> Invalid file: blog/about.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/about.php')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('blog/about', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(17): view('blog/about')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->showme('about')
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-25 02:31:56 --> Invalid file: blog/home.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/home.php')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('blog/home', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(17): view('blog/home')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->showme()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-25 02:32:31 --> Invalid file: blog/home.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/home.php')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('blog/home', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(17): view('blog/home')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->showme()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-25 02:33:29 --> Invalid file: blog/about.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/about.php')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('blog/about', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(17): view('blog/about')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->showme('about')
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-25 02:34:03 --> Invalid file: blog/about.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/about.php')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('blog/about', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(17): view('blog/about')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->showme('about')
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-25 02:34:04 --> Invalid file: blog/home.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/home.php')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('blog/home', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(17): view('blog/home')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->showme()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-25 02:34:10 --> Invalid file: blog/home.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/home.php')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('blog/home', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(17): view('blog/home')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->showme()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-25 02:34:43 --> Invalid file: blog/home.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/home.php')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('blog/home', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(17): view('blog/home')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->showme()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-25 02:34:44 --> Invalid file: blog/home.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/home.php')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('blog/home', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(17): view('blog/home')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->showme()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-25 02:36:21 --> Invalid file: blog/home.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/home.php')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('blog/home', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(17): view('blog/home')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->showme()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-25 02:38:04 --> Argument 2 passed to view() must be of the type array, string given, called in /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php on line 17
+#0 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(17): view('blog', 'home')
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->showme()
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-25 02:38:19 --> Invalid file: bloghome.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('bloghome.php')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('bloghome', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(17): view('bloghome')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->showme()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-25 02:38:52 --> Invalid file: pagehome.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pagehome.php')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('pagehome', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(17): view('pagehome')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->showme()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-25 02:38:53 --> Invalid file: pagehome.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pagehome.php')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('pagehome', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(17): view('pagehome')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->showme()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-25 02:38:54 --> Invalid file: pagehome.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pagehome.php')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('pagehome', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(17): view('pagehome')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->showme()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-25 02:38:56 --> Invalid file: pagehome.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pagehome.php')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('pagehome', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(17): view('pagehome')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->showme()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-25 02:42:25 --> Invalid file: page/o.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page/o.php')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('page/o', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(17): view('page/o')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->showme('o')
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

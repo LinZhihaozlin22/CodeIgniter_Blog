@@ -1,0 +1,11 @@
+CRITICAL - 2021-04-24 23:05:06 --> Class Home does not exist
+#0 /opt/lampp/htdocs/codeigniter/system/Debug/Toolbar/Collectors/Routes.php(82): ReflectionMethod->__construct('Home', '_remap')
+#1 /opt/lampp/htdocs/codeigniter/system/Debug/Toolbar/Collectors/BaseCollector.php(275): CodeIgniter\Debug\Toolbar\Collectors\Routes->display()
+#2 /opt/lampp/htdocs/codeigniter/system/Debug/Toolbar.php(101): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#3 /opt/lampp/htdocs/codeigniter/system/Debug/Toolbar.php(314): CodeIgniter\Debug\Toolbar->run(1619323506.0137, 0.0115, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#4 /opt/lampp/htdocs/codeigniter/system/Filters/DebugToolbar.php(51): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#5 /opt/lampp/htdocs/codeigniter/system/Filters/Filters.php(207): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#6 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(450): CodeIgniter\Filters\Filters->run('', 'after')
+#7 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

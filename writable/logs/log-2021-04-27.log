@@ -1,0 +1,759 @@
+CRITICAL - 2021-04-27 14:26:07 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\blog...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\blog...')
+#3 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(9): spl_autoload_call('App\\Models\\blog...')
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-27 14:26:18 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\blog...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\blog...')
+#3 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(9): spl_autoload_call('App\\Models\\blog...')
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-04-27 14:26:45 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(10): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 14:33:57 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(10): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 14:54:06 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(10): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 14:54:11 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(10): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 14:54:12 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(10): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 14:54:16 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(10): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 14:54:21 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(10): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 14:54:40 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(10): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 14:54:42 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(10): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 14:54:43 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(10): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 14:54:45 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(10): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 14:54:45 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(10): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-04-27 14:55:04 --> syntax error, unexpected 'function' (T_FUNCTION), expecting ';' or '{'
+#0 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-27 14:56:48 --> syntax error, unexpected 'function' (T_FUNCTION), expecting ';' or '{'
+#0 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-27 14:58:16 --> syntax error, unexpected '=', expecting ']'
+#0 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-27 14:58:38 --> syntax error, unexpected '_title' (T_STRING), expecting ']'
+#0 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-27 14:59:29 --> syntax error, unexpected '_title' (T_STRING), expecting ']'
+#0 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-27 14:59:30 --> syntax error, unexpected '_title' (T_STRING), expecting ']'
+#0 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-27 14:59:31 --> syntax error, unexpected '_title' (T_STRING), expecting ']'
+#0 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/codeigniter/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-27 14:59:42 --> Class 'App\Controllers\blogmodel' not found
+#0 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Post->create()
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-27 15:00:35 --> Invalid file: templates/header.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Post.php(22): view('templates/heade...')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Post->create()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-27 15:02:22 --> Invalid file: templates/header.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Post.php(22): view('templates/heade...')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Post->create()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-27 15:02:23 --> Invalid file: templates/header.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Post.php(22): view('templates/heade...')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Post->create()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-27 15:02:24 --> Invalid file: templates/header.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Post.php(22): view('templates/heade...')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Post->create()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-27 15:02:24 --> Invalid file: templates/header.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Post.php(22): view('templates/heade...')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Post->create()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-27 15:02:29 --> Invalid file: templates/header.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Post.php(22): view('templates/heade...')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Post->create()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-04-27 15:18:03 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(11): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 15:18:04 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(11): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 15:18:06 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(11): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 15:18:48 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(11): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 15:18:49 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(11): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 15:19:19 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(11): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 15:19:20 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(11): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 15:19:28 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(11): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-04-27 15:24:15 --> Invalid file: codeigniter/public/blog/create.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('codeigniter/pub...')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('codeigniter/pub...', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Post.php(23): view('codeigniter/pub...')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Post->create()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-27 15:25:30 --> Invalid file: public/blog/create.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public/blog/cre...')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('public/blog/cre...', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Post.php(23): view('public/blog/cre...')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Post->create()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-04-27 15:30:58 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(11): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 15:31:26 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(11): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 15:31:27 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(11): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 15:31:28 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(11): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 15:31:28 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(11): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 15:31:30 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(11): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 15:31:31 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(11): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 15:31:36 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(11): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-04-27 15:31:42 --> mysqli_sql_exception: No database selected in /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /opt/lampp/htdocs/codeigniter/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/codeigniter/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/codeigniter/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/codeigniter/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/codeigniter/app/Models/blogmodel.php(11): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): App\Models\blogmodel->getPost()
+#8 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->index()
+#9 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#10 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-04-27 17:08:16 --> There is no data to insert.
+#0 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /opt/lampp/htdocs/codeigniter/system/Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#2 /opt/lampp/htdocs/codeigniter/system/BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#3 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(29): CodeIgniter\BaseModel->save(Array)
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->create()
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-27 17:15:28 --> Invalid file: blog/create.php
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/create.php')
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('blog/create', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(23): view('blog/create')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->create()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-27 18:20:18 --> syntax error, unexpected 'session' (T_STRING), expecting variable (T_VARIABLE) or '{' or '$'
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('page/home', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Page.php(12): view('page/home')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Page->index()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-27 18:21:56 --> syntax error, unexpected 'session' (T_STRING), expecting variable (T_VARIABLE) or '{' or '$'
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('page/home', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Page.php(12): view('page/home')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Page->index()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-27 18:21:59 --> syntax error, unexpected 'session' (T_STRING), expecting variable (T_VARIABLE) or '{' or '$'
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('page/home', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Page.php(12): view('page/home')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Page->index()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-27 18:22:00 --> syntax error, unexpected 'session' (T_STRING), expecting variable (T_VARIABLE) or '{' or '$'
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('page/home', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Page.php(12): view('page/home')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Page->index()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-27 18:22:12 --> syntax error, unexpected ':'
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('page/home', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Page.php(12): view('page/home')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Page->index()
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-27 19:05:17 --> syntax error, unexpected 'strtime' (T_STRING), expecting ')'
+#0 /opt/lampp/htdocs/codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('blog/post', Array, true)
+#2 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(12): view('blog/post')
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->post('1')
+#4 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-27 19:05:43 --> Undefined variable: post
+#0 /opt/lampp/htdocs/codeigniter/app/Views/blog/post.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 4, Array)
+#1 /opt/lampp/htdocs/codeigniter/system/View/View.php(220): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(12): view('blog/post')
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->post('1')
+#6 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-27 19:08:11 --> Call to undefined method App\Models\blogmodel::getPosts
+#0 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): CodeIgniter\Model->__call('getPosts', Array)
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->post('1')
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-27 19:08:12 --> Call to undefined method App\Models\blogmodel::getPosts
+#0 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): CodeIgniter\Model->__call('getPosts', Array)
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->post('1')
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-27 19:08:13 --> Call to undefined method App\Models\blogmodel::getPosts
+#0 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): CodeIgniter\Model->__call('getPosts', Array)
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->post('1')
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-27 19:10:11 --> Call to undefined method App\Models\blogmodel::getPosts
+#0 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(10): CodeIgniter\Model->__call('getPosts', Array)
+#1 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->post('1')
+#2 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-27 19:11:15 --> Undefined variable: post
+#0 /opt/lampp/htdocs/codeigniter/app/Views/blog/post.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 2, Array)
+#1 /opt/lampp/htdocs/codeigniter/system/View/View.php(220): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(12): view('blog/post')
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->post('1')
+#6 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-27 19:11:17 --> Undefined variable: post
+#0 /opt/lampp/htdocs/codeigniter/app/Views/blog/post.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 2, Array)
+#1 /opt/lampp/htdocs/codeigniter/system/View/View.php(220): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(12): view('blog/post')
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->post('1')
+#6 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-27 19:12:30 --> Undefined index: body
+#0 /opt/lampp/htdocs/codeigniter/app/Views/blog/post.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 8, Array)
+#1 /opt/lampp/htdocs/codeigniter/system/View/View.php(220): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(12): view('blog/post')
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->post('1')
+#6 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-27 19:12:30 --> Undefined index: body
+#0 /opt/lampp/htdocs/codeigniter/app/Views/blog/post.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/opt/lampp/htdo...', 8, Array)
+#1 /opt/lampp/htdocs/codeigniter/system/View/View.php(220): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/codeigniter/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/codeigniter/system/Common.php(1217): CodeIgniter\View\View->render('blog/post', Array, true)
+#4 /opt/lampp/htdocs/codeigniter/app/Controllers/Blog.php(12): view('blog/post')
+#5 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(936): App\Controllers\Blog->post('1')
+#6 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 /opt/lampp/htdocs/codeigniter/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
